@@ -1,0 +1,17 @@
+var landingPage = Ti.UI.createWindow({
+	backgroundColor: "#000005"
+});
+landingPage.open();
+
+var name = Ti.UI.createLabel({
+	title: "Anthony George",
+	top: 10,
+	left: 10,
+	font: {
+		fontSize: '20',
+		fontWeight: 'bold',
+		fontFamily: 'Droid Serif'
+	},
+	color: '#b18e5f'
+});
+landingPage.add(name);

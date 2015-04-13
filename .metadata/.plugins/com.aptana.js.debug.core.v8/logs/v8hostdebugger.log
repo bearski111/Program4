@@ -1,0 +1,45 @@
+Logger started at: Monday, April 13, 2015 1:53:23 AM PDT
+Component: com.aptana.js.debug.core.v8
+Version: 3.0.0.1407437730
+[54:41.564] Recv: >1428915281537*version<
+[54:41.589] Sent: >32*1428915281537*1*3.0.0.1407437730<
+[54:41.623] Recv: >1428915281538*option*monitorXHR*true<
+[54:41.624] Sent: >42*1428915281538*!unknown option <monitorXHR><
+[54:41.637] Recv: >1428915281539*option*suspendOnFirstLine*false<
+[54:41.638] Sent: >13*1428915281539<
+[54:41.650] Recv: >1428915281540*option*suspendOnExceptions*false<
+[54:41.784] Sent: >13*1428915281540<
+[54:41.787] Recv: >1428915281541*option*suspendOnErrors*true<
+[54:42.509] Sent: >13*1428915281541<
+[54:42.510] Recv: >1428915281542*option*suspendOnKeywords*true<
+[54:42.511] Sent: >13*1428915281542<
+[54:42.512] Recv: >1428915281543*option*bypassConstructors*false<
+[54:42.513] Sent: >50*1428915281543*!unknown option <bypassConstructors><
+[54:42.514] Recv: >1428915281544*option*stepFiltersEnabled*false<
+[54:42.514] Sent: >50*1428915281544*!unknown option <stepFiltersEnabled><
+[54:42.517] Recv: >1428915281545*detailFormatters<
+[54:42.518] Sent: >13*1428915281545<
+[54:42.519] Recv: >1428915281546*enable<
+[54:42.520] Sent: >13*resumed*start<
+[54:42.521] Sent: >46*scripts*created*1|ti:/webview.js|anonymous|1|1<
+[54:42.521] Sent: >13*1428915281546<
+[54:42.521] Sent: >48*scripts*created*2|ti:/bootstrap.js|anonymous|1|1<
+[54:42.522] Sent: >44*scripts*created*3|ti:/kroll.js|anonymous|1|1<
+[54:42.522] Sent: >47*scripts*created*4|ti:/titanium.js|anonymous|1|1<
+[54:42.523] Sent: >49*scripts*created*5|ti:/properties.js|anonymous|1|1<
+[54:42.523] Sent: >47*scripts*created*6|ti:/tabgroup.js|anonymous|1|1<
+[54:42.524] Sent: >45*scripts*created*7|ti:/events.js|anonymous|1|1<
+[54:42.524] Sent: >41*scripts*created*8|ti:/ui.js|anonymous|1|1<
+[54:42.525] Sent: >46*scripts*created*9|ti:/console.js|anonymous|1|1<
+[54:42.529] Sent: >44*scripts*created*10|ti:/path.js|anonymous|1|1<
+[54:42.529] Sent: >47*scripts*created*11|ti:/invoker.js|anonymous|1|1<
+[54:42.530] Sent: >43*scripts*created*12|ti:/tab.js|anonymous|1|1<
+[54:42.530] Sent: >43*scripts*created*13|ti:/url.js|anonymous|1|1<
+[54:42.531] Sent: >46*scripts*created*14|ti:/window.js|anonymous|1|1<
+[54:42.531] Sent: >50*scripts*created*15|ti:/httpclient.js|anonymous|1|1<
+[54:42.532] Sent: >48*scripts*created*16|ti:/listview.js|anonymous|1|1<
+[54:42.532] Sent: >47*scripts*created*17|ti:/network.js|anonymous|1|1<
+[54:42.533] Sent: >46*scripts*created*18|ti:/module.js|anonymous|1|1<
+[54:43.397] Sent: >46*scripts*created*19|app:///app.js|anonymous|1|1<
+[55:35.831] Recv: >*terminate<
+----------End of file----------

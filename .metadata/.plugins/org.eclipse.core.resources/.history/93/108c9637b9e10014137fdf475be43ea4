@@ -1,0 +1,177 @@
+var landingPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+landingPage.open();
+
+var title = Ti.UI.createLabel({
+	text: "University of Idaho",
+	top: 10,
+	font: {
+		fontSize: '30',
+		fontWeight: 'bold',
+		fontFamily: 'serif'
+	},
+	color: '#b18e5f'
+});
+landingPage.add(title);
+
+var name = Ti.UI.createLabel({
+	text: "Name: Anthony George",
+	color: 'white',
+	font:{
+		fontSize: '15'
+	}
+});
+landingPage.add(name);
+
+var degree = Ti.UI.createLabel({
+	text: "Degree: B.S.Bus",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(degree);
+
+var major = Ti.UI.createLabel({
+	text: "Major: Information Systems",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(major);
+
+var infoView = Ti.UI.createView({
+	left: 10,
+	right: 10,
+	backgroundColor: '#9f9d9d',
+	borderRadius: 20,
+	borderColor: '#b18e5f',
+	height: 100,
+	layout: 'vertical'
+});
+landingPage.add(infoView);
+
+var address = Ti.UI.createLabel({
+	text: '1118 East E St',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	},
+	top: 10
+});
+infoView.add(address);
+
+var address2 = Ti.UI.createLabel({
+	text: 'Moscow ID, 83843',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(address2);
+
+var phone = Ti.UI.createLabel({
+	text: 'Cell: (208)669-0029',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	},
+	top: 5
+});
+infoView.add(phone);
+
+var email = Ti.UI.createLabel({
+	text: 'geor9789@vandals.uidaho.edu',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(email);
+
+var moreInfoButton = Ti.UI.createButton({
+	title: 'More Info',
+	color: 'white',
+	font:{
+		fontWeight: 'bold',
+		fontSize: '15'
+	},
+	backgroundColor: '#b18e5f',
+	borderRadius: 10,
+	borderColor: '#9f9d9d',
+	top: 10,
+	height: 20
+});
+landingPage.add(moreInfoButton);
+moreInfoButton.addEventListener('click',function(e){
+	moreInfoPage.open();
+	landingPage.close();
+});
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var moreInfoPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+
+var moreInfoTitle = Ti.UI.createLabel({
+	text: 'More Information:',
+	color: 'white',
+	font:{
+		fontSize: '30',
+		fontWeight: 'bold'
+	},
+	top: 5,
+	left: 5 
+});
+moreInfoPage.add(moreInfoTitle);
+
+var about = Ti.UI.createLabel({
+	//text: 'About: I am a hardworking college student looking for the opportunity to succedd in life at something that I love. I have always worked hard to get where I am now and do not plan on stopping. Some of accomplishments include acheiving ealge scout rank in the Boy Scouts of America, making the deans list, being a part of student government in highschool, and that is to just name a few. ',
+	color: 'white',
+	font:{
+		fontSize: '15',
+	},
+	top: 10,
+	left: 10 
+});
+moreInfoPage.add(hometown);
+
+var hometown = Ti.UI.createLabel({
+	text: 'Hometown: Moscow, ID',
+	color: 'white',
+	font:{
+		fontSize: '15',
+	},
+	top: 5,
+	left: 10 
+});
+moreInfoPage.add(hometown);
+
+var employer = Ti.UI.createLabel({
+	text: 'Current Employer: WinCo Foods',
+	color: 'white',
+	font:{
+		fontSize: '15',
+	},
+	top: 5,
+	left: 10 
+});
+moreInfoPage.add(employer);
+
+var clubs = Ti.UI.createLabel({
+	text: 'Clubs: Tennis, Swimming, Operations Management ',
+	color: 'white',
+	font:{
+		fontSize: '15',
+	},
+	top: 5,
+	left: 10 
+});
+moreInfoPage.add(clubs);
+
+

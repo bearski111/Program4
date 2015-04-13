@@ -1,0 +1,121 @@
+var landingPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+landingPage.open();
+
+var title = Ti.UI.createLabel({
+	text: "University of Idaho",
+	top: 10,
+	font: {
+		fontSize: '30',
+		fontWeight: 'bold',
+		fontFamily: 'serif'
+	},
+	color: '#b18e5f'
+});
+landingPage.add(title);
+
+var name = Ti.UI.createLabel({
+	text: "Name: Anthony George",
+	color: 'white',
+	font:{
+		fontSize: '15'
+	}
+});
+landingPage.add(name);
+
+var degree = Ti.UI.createLabel({
+	text: "Degree: B.S.Bus",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(degree);
+
+var major = Ti.UI.createLabel({
+	text: "Major: Information Systems",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(major);
+
+var infoView = Ti.UI.createView({
+	left: 10,
+	right: 10,
+	backgroundColor: '#9f9d9d',
+	borderRadius: 20,
+	borderColor: '#b18e5f',
+	height: 100,
+	layout: 'vertical'
+});
+landingPage.add(infoView);
+
+var address = Ti.UI.createLabel({
+	text: '1118 East E St',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	},
+	top: 10
+});
+infoView.add(address);
+
+var address2 = Ti.UI.createLabel({
+	text: 'Moscow ID, 83843',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(address2);
+
+var phone = Ti.UI.createLabel({
+	text: 'Cell: (208)669-0029',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	},
+	top: 5
+});
+infoView.add(phone);
+
+var email = Ti.UI.createLabel({
+	text: 'geor9789@vandals.uidaho.edu',
+	color: '#000005',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(email);
+
+var moreInfoButton = Ti.UI.createButton({
+	title: 'More Info',
+	color: 'white',
+	font:{
+		fontWeight: 'bold',
+		fontSize: '15'
+	},
+	backgroundColor: '#b18e5f',
+	borderRadius: 10,
+	borderColor: '#9f9d9d',
+	top: 10,
+	height: 20
+});
+landingPage.add(moreInfoButton);
+moreInfoButton.addEventListener('click',function(e){
+	moreInfoPage.open();
+	landingPage.close();
+});
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var moreInfoPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+
+

@@ -1,0 +1,26 @@
+var landingPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+landingPage.open();
+
+var title = Ti.UI.createLabel({
+	text: "University of Idaho",
+	top: 10,
+	font: {
+		fontSize: '30',
+		fontWeight: 'bold',
+		fontFamily: 'serif'
+	},
+	color: '#b18e5f'
+});
+landingPage.add(title);
+
+var name = Ti.UI.createLabel({
+	text: "Name: Anthony George",
+	color: 'white',
+	font:{
+		fontSize: '15'
+	}
+});
+landingPage.add(name);

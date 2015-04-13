@@ -1,0 +1,77 @@
+var landingPage = Ti.UI.createWindow({
+	backgroundColor: "#000005",
+	layout: 'vertical'
+});
+landingPage.open();
+
+var title = Ti.UI.createLabel({
+	text: "University of Idaho",
+	top: 10,
+	font: {
+		fontSize: '30',
+		fontWeight: 'bold',
+		fontFamily: 'serif'
+	},
+	color: '#b18e5f'
+});
+landingPage.add(title);
+
+var name = Ti.UI.createLabel({
+	text: "Name: Anthony George",
+	color: 'white',
+	font:{
+		fontSize: '15'
+	}
+});
+landingPage.add(name);
+
+var degree = Ti.UI.createLabel({
+	text: "Degree: B.S.Bus",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(degree);
+
+var major = Ti.UI.createLabel({
+	text: "Major: Information Systems",
+	color: 'white',
+	font:{
+		fontSize: '10'
+	}
+});
+landingPage.add(major);
+
+var infoView = Ti.UI.createView({
+	left: 10,
+	right: 10,
+	backgroundColor: '#9f9d9d',
+	borderRadius: 20,
+	borderColor: '#b18e5f',
+	height: 100,
+	layout: 'vertical'
+});
+landingPage.add(infoView);
+
+var address = Ti.UI.createLabel({
+	text: '1118 East E St',
+	left: 10,
+	color: '#b18e5f',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(address);
+
+var address2 = Ti.UI.createLabel({
+	text: 'Moscow ID, 83843',
+	left: 10,
+	color: '#b18e5f',
+	font:{
+		fontSize: '12'
+	}
+});
+infoView.add(address2);
+
+
